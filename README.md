@@ -1,73 +1,88 @@
 # Paradise Nursery
 
-Paradise Nursery is a React-based houseplant shopping application developed as part of the **IBM Developing Front-End Apps with React** course project.
-
-The application allows users to browse houseplants by category, add plants to a shopping cart and manage their selected items.
+Paradise Nursery is a React and Vite houseplant shopping application. It lets visitors discover curated indoor plants, add selections to a Redux-managed cart, adjust quantities, and review item and cart totals before a future checkout experience.
 
 ## Features
 
-- Landing page introducing Paradise Nursery
-- Houseplants organized into multiple categories
-- Plant thumbnails, names and prices
-- Add to Cart functionality
-- Dynamic shopping cart item count
-- Increase and decrease item quantities
-- Remove items from the shopping cart
-- Automatic calculation of item and cart totals
-- Navigation between Home, Plants and Cart pages
-- Continue Shopping functionality
-- Checkout placeholder
+- Responsive Home and About pages with locally stored nursery imagery
+- Shared navigation for Home, Plants, About, and Cart pages
+- Dynamic cart badge showing the total selected plant quantity
+- An 18-plant catalogue across three categories:
+  - Foliage Favorites
+  - Low-Light Living
+  - Flowering & Color
+- Local plant thumbnails, names, categories, and prices
+- Add to Cart controls connected to Redux Toolkit
+- Added products display their in-cart quantity and disable their Add to Cart button
+- Cart quantity increase, decrease, and remove actions
+- Per-item totals, overall cart total, and total item quantity
+- Continue Shopping links back to the catalogue
+- Checkout placeholder feedback
 
-## Technologies
+## Technology stack
 
 - React
-- JavaScript
-- CSS
-- Redux Toolkit
-- React Redux
-- Git and GitHub
-- GitHub Pages
+- Vite
+- React Router
+- Redux Toolkit and React Redux
+- JavaScript and CSS
 
-## Project Structure
+## Project structure
 
-Key files used in the project:
+```text
+src/
+├── App.jsx           # Routes, shared navigation, and landing page
+├── App.css           # Shared application and page styling
+├── AboutUs.jsx       # About-page hero and company story
+├── ProductList.jsx   # Categorized plant catalogue and Add to Cart controls
+├── CartItem.jsx      # Cart controls, item totals, and cart summary
+├── CartSlice.jsx     # Redux cart reducers
+├── store.js          # Redux Toolkit store configuration
+└── assets/           # Local nursery and plant thumbnail assets
+```
 
-- `App.jsx` — Paradise Nursery landing page
-- `App.css` — Application styling and landing page background
-- `AboutUs.jsx` — Information about Paradise Nursery
-- `ProductList.jsx` — Houseplant product listing
-- `CartItem.jsx` — Shopping cart interface and controls
-- `CartSlice.jsx` — Redux shopping cart state and reducers
+## Running the project
 
-## Shopping Cart
+### Prerequisites
 
-Shopping cart state is managed using Redux. The cart supports:
+Install a current version of Node.js and npm.
 
-- Adding plants
-- Removing plants
-- Updating plant quantities
-- Calculating the total number of plants
-- Calculating individual item totals
-- Calculating the overall cart total
-
-## Running the Project
-
-Install the project dependencies:
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server:
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-## Deployment
+Vite will print the local address to open in a browser.
 
-The application is deployed using GitHub Pages.
+### Run linting
 
-## Course Project
+```bash
+npm run lint
+```
 
-This project was created to demonstrate practical knowledge of React components, Redux state management, event handling, navigation and front-end application development.
+### Create a production build
+
+```bash
+npm run build
+```
+
+### Preview the production build
+
+```bash
+npm run preview
+```
+
+## Cart behavior
+
+Cart state is stored in Redux. The cart slice supports adding items, removing items, and setting an item's quantity. The UI updates the navigation count, individual item totals, and the overall cart total from that shared state.
+
+## Current limitation
+
+Checkout is intentionally a placeholder. Payment processing, order creation, and cart persistence are not implemented.

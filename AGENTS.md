@@ -123,3 +123,9 @@ Keep records concise and useful for understanding the project's accepted state. 
 - **Human direction:** Build the landing page with a background image, Paradise Nursery branding, company description, and a Get Started button linked to the product listing.
 - **Approved result:** Added a responsive, full-height nursery hero with a locally stored plant background image and contrast overlay; added the Get Started route link to `/plants`; expanded the About Us company description.
 - **Verification:** `npm run lint` completed with 0 errors and 0 warnings; `npm run build` succeeded; local Vite checks returned HTTP 200 for `/` and `/plants` with no logged transform or module-resolution errors. Browser automation was not run.
+
+### Change #4 — Complete cart flow, About page, and project documentation
+
+- **Human direction:** Complete the shopping-cart flow, make the About page visually consistent with the Home page, and finish the Paradise Nursery README.
+- **Approved result:** Added cart item-quantity and monetary totals, Continue Shopping links, and a non-destructive Checkout placeholder; redesigned the About page as a responsive hero using the existing local nursery image with a product-listing CTA; and updated the README with accurate project description, features, technology stack, structure, running instructions, and current limitations.
+- **Verification:** Validated cart totals across add, quantity update, and remove reducer transitions; verified About-page image reuse and `/plants` CTA; verified README sections and documented npm commands; `npm run lint` completed with 0 errors and 0 warnings; `npm run build` succeeded; local Vite route checks returned HTTP 200 for `/`, `/about`, `/plants`, and `/cart` with no logged transform or module-resolution errors. Browser automation was not run.

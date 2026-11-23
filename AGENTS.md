@@ -111,3 +111,9 @@ Keep records concise and useful for understanding the project's accepted state. 
 - **Human direction:** Initialize the Paradise Nursery React project, confirm the starter app works, and add React Router, Redux Toolkit, and React Redux.
 - **Approved result:** Added a Vite + React JavaScript starter with browser routing, a Redux Toolkit store, React Redux provider, and a working counter example; installed the requested dependencies.
 - **Verification:** `npm run lint` completed with 0 errors and 0 warnings; `npm run build` succeeded; the local Vite server returned HTTP 200. Browser automation was not run.
+
+### Change #3 — Build Paradise Nursery landing page
+
+- **Human direction:** Build the landing page with a background image, Paradise Nursery branding, company description, and a Get Started button linked to the product listing.
+- **Approved result:** Added a responsive, full-height nursery hero with a locally stored plant background image and contrast overlay; added the Get Started route link to `/plants`; expanded the About Us company description.
+- **Verification:** `npm run lint` completed with 0 errors and 0 warnings; `npm run build` succeeded; local Vite checks returned HTTP 200 for `/` and `/plants` with no logged transform or module-resolution errors. Browser automation was not run.

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Low-light houseplants</title>
+  <desc id="desc">Stylized upright green leaves in a navy pot.</desc>
+  <rect width="800" height="600" fill="#d5e1dd"/>
+  <circle cx="635" cy="115" r="73" fill="#eff4e7" opacity=".75"/>
+  <path d="M0 496c162-61 288-35 400 20 107 52 244 46 400-17v101H0Z" fill="#bbcfc7"/>
+  <path d="M307 488h187l-29-190H336z" fill="#274d58"/>
+  <path d="M375 319c-65-121-41-219 21-274 75 113 52 211-21 274Z" fill="#326d4c"/>
+  <path d="M345 334c-96-89-105-189-56-262 105 84 115 183 56 262Z" fill="#43845a"/>
+  <path d="M425 332c17-131 97-202 177-209-13 135-93 207-177 209Z" fill="#245f42"/>
+  <path d="M452 356c78-74 165-68 220-14-80 81-166 75-220 14Z" fill="#5b9b69"/>
+  <path d="M350 178 394 361M287 168l91 196M541 186 413 365M577 344l-154 34" stroke="#d5e1dd" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+</svg>

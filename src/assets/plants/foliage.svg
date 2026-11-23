@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Foliage houseplants</title>
+  <desc id="desc">Stylized green leaves in a terracotta pot.</desc>
+  <rect width="800" height="600" fill="#dcebd6"/>
+  <path d="M0 470C145 400 228 430 347 493c149 79 296 79 453-14v121H0Z" fill="#bfd8b9"/>
+  <path d="M335 507h130l-22-240h-86z" fill="#c9724e"/>
+  <path d="M350 285c-130-38-173-159-135-226 116 35 159 141 135 226Z" fill="#377c4a"/>
+  <path d="M393 284C290 199 310 77 390 28c81 93 69 205 3 256Z" fill="#245f38"/>
+  <path d="M434 290c19-123 113-183 207-160-18 126-111 184-207 160Z" fill="#438e55"/>
+  <path d="M368 305c-93 16-164-47-176-128 104-19 171 46 176 128Z" fill="#5aa968"/>
+  <path d="M420 315c94 27 146 110 121 194-102-29-147-111-121-194Z" fill="#2f7143"/>
+  <path d="M390 121v220M260 114l126 214M559 162 414 337M268 219l108 116M493 238l-76 102" stroke="#dcebd6" stroke-width="11" stroke-linecap="round" opacity=".7"/>
+</svg>

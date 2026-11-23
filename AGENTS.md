@@ -112,6 +112,12 @@ Keep records concise and useful for understanding the project's accepted state. 
 - **Approved result:** Added a Vite + React JavaScript starter with browser routing, a Redux Toolkit store, React Redux provider, and a working counter example; installed the requested dependencies.
 - **Verification:** `npm run lint` completed with 0 errors and 0 warnings; `npm run build` succeeded; the local Vite server returned HTTP 200. Browser automation was not run.
 
+### Change #2 — Build Paradise Nursery catalog, cart, and navigation
+
+- **Human direction:** Build the plant catalogue, Redux shopping cart, product listing interactions, and navigation header for Paradise Nursery.
+- **Approved result:** Added an 18-plant catalogue across three categories with locally stored thumbnails; implemented Redux cart state with `addItem`, `removeItem`, and `updateQuantity`; connected product cards to cart state with Add to Cart disabling and in-cart quantities; added a dynamic cart quantity control; and redesigned the shared responsive header with active navigation, branding, and an accessible cart action.
+- **Verification:** Verified 18 unique plants across three six-plant categories with required fields and local image assets; validated cart reducer transitions; `npm run lint` completed with 0 errors and 0 warnings; `npm run build` succeeded; local Vite checks returned HTTP 200 for `/`, `/plants`, and `/cart` with no logged transform or module-resolution errors. Browser automation was not run.
+
 ### Change #3 — Build Paradise Nursery landing page
 
 - **Human direction:** Build the landing page with a background image, Paradise Nursery branding, company description, and a Get Started button linked to the product listing.

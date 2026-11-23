@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Flowering houseplants</title>
+  <desc id="desc">Stylized flowering plant with pink blooms in a clay pot.</desc>
+  <rect width="800" height="600" fill="#f0dfd2"/>
+  <path d="M0 491c176-51 272-21 404 19 143 44 259 38 396-24v114H0Z" fill="#e2c7b6"/>
+  <path d="M317 496h170l-26-195H343z" fill="#bc654c"/>
+  <path d="M402 332c-47-96-29-179 30-233 63 95 43 176-30 233Z" fill="#3f7b47"/>
+  <path d="M371 344c-93-40-124-120-94-192 96 37 127 116 94 192Z" fill="#4b9254"/>
+  <path d="M438 348c63-82 145-93 208-50-65 88-145 98-208 50Z" fill="#34753f"/>
+  <g fill="#d46e83">
+    <circle cx="277" cy="138" r="48"/><circle cx="349" cy="96" r="48"/><circle cx="417" cy="141" r="48"/><circle cx="370" cy="192" r="48"/><circle cx="298" cy="188" r="48"/>
+    <circle cx="510" cy="210" r="42"/><circle cx="571" cy="177" r="42"/><circle cx="628" cy="216" r="42"/><circle cx="588" cy="262" r="42"/><circle cx="528" cy="254" r="42"/>
+  </g>
+  <g fill="#f7d56d"><circle cx="371" cy="145" r="26"/><circle cx="565" cy="223" r="23"/></g>
+  <path d="M370 145 403 350M565 223 437 353" stroke="#3f7b47" stroke-width="16" stroke-linecap="round"/>
+</svg>

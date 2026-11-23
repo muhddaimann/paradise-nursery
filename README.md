@@ -79,6 +79,14 @@ npm run build
 npm run preview
 ```
 
+## Deployment
+
+The project is configured to deploy to GitHub Pages from `main` using GitHub Actions. After the deployment workflow completes, it is available at:
+
+```text
+https://muhddaimann.github.io/paradise-nursery/
+```
+
 ## Cart behavior
 
 Cart state is stored in Redux. The cart slice supports adding items, removing items, and setting an item's quantity. The UI updates the navigation count, individual item totals, and the overall cart total from that shared state.

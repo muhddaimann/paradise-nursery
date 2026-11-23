@@ -24,9 +24,24 @@ function CartItem() {
           <section aria-label="Cart items">
             {items.map((item) => (
               <article className="cart-item" key={item.id}>
-                <div className="cart-item__header">
-                  <h2>{item.name}</h2>
-                  <strong>${(item.price * item.quantity).toFixed(2)}</strong>
+                <div className="cart-item__details">
+                  <img
+                    alt={`${item.name} plant`}
+                    className="cart-item__thumbnail"
+                    height="104"
+                    src={item.thumbnail}
+                    width="104"
+                  />
+                  <div className="cart-item__header">
+                    <div>
+                      <h2>{item.name}</h2>
+                      <p className="cart-item__unit-price">${item.price.toFixed(2)} each</p>
+                    </div>
+                    <div className="cart-item__line-total">
+                      <span>Line total</span>
+                      <strong>${(item.price * item.quantity).toFixed(2)}</strong>
+                    </div>
+                  </div>
                 </div>
                 <p>Quantity: {item.quantity}</p>
                 <div className="actions">

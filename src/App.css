@@ -81,7 +81,13 @@ h2 { color: #1f4d36; font-size: 1.25rem; margin: 0; }
 .cart-item { padding: 1.25rem; }
 .plant-price { color: #365443; font-weight: 700; }
 .cart-item { margin: 2rem auto 0; max-width: 32rem; text-align: left; }
-.cart-item__header { align-items: baseline; display: flex; gap: 1rem; justify-content: space-between; }
+.cart-item__details { align-items: flex-start; display: grid; gap: 1rem; grid-template-columns: 6.5rem minmax(0, 1fr); }
+.cart-item__thumbnail { background: #dcebd6; border-radius: 0.75rem; display: block; height: 6.5rem; object-fit: cover; width: 6.5rem; }
+.cart-item__header { align-items: flex-start; display: flex; gap: 1rem; justify-content: space-between; }
+.cart-item__header h2 { margin: 0; }
+.cart-item__unit-price { color: #496450; margin: 0.375rem 0 0; }
+.cart-item__line-total { color: #496450; display: grid; gap: 0.2rem; justify-items: end; text-align: right; }
+.cart-item__line-total strong { color: #173f2a; font-size: 1.125rem; }
 .empty-state { color: #4d6253; margin-top: 2rem; }
 .empty-cart { display: grid; gap: 1.25rem; justify-items: center; }
 .cart-summary { background: #edf4e9; border: 1px solid #d7e2d5; border-radius: 1rem; margin: 1.5rem auto 0; max-width: 32rem; padding: 1.25rem; text-align: left; }
@@ -106,4 +112,6 @@ button:focus-visible, a:focus-visible { outline: 3px solid #9ac5a1; outline-offs
   .brand__name { font-size: 1rem; }
   .landing-hero { background-position: 58% center; min-height: calc(100vh - 137px); }
   .about-hero { min-height: calc(100vh - 137px); }
+  .cart-item__header { align-items: flex-start; flex-direction: column; gap: 0.5rem; }
+  .cart-item__line-total { justify-items: start; text-align: left; }
 }
